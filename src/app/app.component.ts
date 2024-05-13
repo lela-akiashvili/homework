@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { CardComponent } from './card/card.component';
 import { ThemeSwitchComponent } from './theme-switch/theme-switch.component';
-import { FormComponent } from './form/form.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CardComponent, ThemeSwitchComponent, FormComponent],
+  imports: [CardComponent, ThemeSwitchComponent],
   templateUrl: './app.component.html',
   styles: `
   div{
